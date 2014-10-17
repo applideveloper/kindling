@@ -15,6 +15,7 @@ I am developing kindling on the MEAN stack. A full list of tools used:
 
 #####Potential changes
 I am considering the following changes:
+* MongoDB -> ArangoDB
 * Angular -> Flux + React
 * Express -> Koa
 * Selenium WebDriver -> Phantom
