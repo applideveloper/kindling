@@ -1,6 +1,12 @@
-284af40 (HEAD, tdm/add/issue-2) updated the readme for travis ci inclusion
-36c42d1 (origin/develop, tdm/add/issue-1, develop) buildcl
+043a827 (HEAD, origin/master, origin/HEAD, master) Merge pull request #6 from tylerdmace/develop
+688afaa (origin/develop, develop) readme update
+c2e6010 merge
+fdd6c5e (origin/tdm/bug-fix/issue-4, tdm/bug-fix/issue-4) added in david-dm support
+250931e Merge pull request #3 from tylerdmace/tdm/add/issue-2
+f3b3339 (origin/tdm/add/issue-2, tdm/add/issue-2) buildcl
+284af40 updated the readme for travis ci inclusion
+36c42d1 (tdm/add/issue-1) buildcl
 4d88769 updated the readme; first commit on this branch
-1a102fb (origin/master, origin/HEAD, master) buildcl
+1a102fb buildcl
 26dff79 init commit
 7819297 Initial commit
