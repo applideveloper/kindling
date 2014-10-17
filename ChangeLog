@@ -1,4 +1,6 @@
-4d88769 (HEAD, develop) updated the readme; first commit on this branch
+284af40 (HEAD, tdm/add/issue-2) updated the readme for travis ci inclusion
+36c42d1 (origin/develop, tdm/add/issue-1, develop) buildcl
+4d88769 updated the readme; first commit on this branch
 1a102fb (origin/master, origin/HEAD, master) buildcl
 26dff79 init commit
 7819297 Initial commit

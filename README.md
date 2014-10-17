@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/meanjs/mean.svg?branch=master)](https://travis-ci.org/meanjs/mean)
+[![Build Status](https://travis-ci.org/tylerdmace/kindling.svg)](https://travis-ci.org/tylerdmace/kindling)
 [![Dependencies Status](https://david-dm.org/tylerdmace/kindling.png)](https://david-dm.org/tylerdmace/kindling)
 
 kindling is a less sucky version of Tinder. It's not ground-breaking nor innovative in any measurable way -- it's simply less sucky.
