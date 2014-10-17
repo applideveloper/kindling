@@ -1,9 +1,28 @@
 [![Build Status](https://travis-ci.org/meanjs/mean.svg?branch=master)](https://travis-ci.org/meanjs/mean)
 [![Dependencies Status](https://david-dm.org/meanjs/mean.svg)](https://david-dm.org/meanjs/mean)
 
-kindling is a Tinder clone that supports swipe-undo
+kindling is a less sucky version of Tinder. It's not ground-breaking nor innovative in any measurable way -- it's simply less sucky.
 
 # About
+###Technical details
+I am developing kindling on the MEAN stack. A full list of tools used:
+* MongoDB
+* Angular
+* Node, Express
+* Protractor (w/ Selenium), Karma, and Jasmin
+* Grunt
+* Bootstrap, Sass, Font Awesome, and Material Design (material-design-icons)
+
+#####Potential changes
+I am considering the following changes:
+* Angular -> Flux + React
+* Express -> Koa
+* Selenium WebDriver -> Phantom
+* Grunt -> Gulp
+* Bootstrap -> Material Design
+
+###Team
+Tyler Mace (tylerdmace)
 
 # Contributing
 I still don't know the best way to do this so I'm experimenting. If unsure about process or if you have a better suggestion, please let me know (@tylerdmace).
@@ -28,12 +47,11 @@ $ git checkout -b tdm/add/issue-13
 
 # Development
 ### Requirements
-* Node
-* Bower
+* Node (for NPM)
 * MongoDB
 
 ### Installation
-Pretty simple setup. Ensure that you've got a mongo server running on the default port, then:
+Pretty simple setup. Ensure that you've got `mongod` running and bound to the default port, then:
 
 ```Bash
 $ npm install
