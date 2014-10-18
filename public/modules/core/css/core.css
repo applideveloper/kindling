@@ -1,15 +1,35 @@
 .content {
 	margin-top: 50px;
 }
-.undecorated-link:hover {
-	text-decoration: none;
+
+.imac-lg {
+	width: 1000px;
 }
+
+.imac-md {
+	width: 500px;
+}
+
+.imac-sm {
+	width: 250px;
+}
+
+.navbar-brand-custom {
+	font-size: 3em;
+}
+
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
 	display: none !important;
 }
+
 .ng-invalid.ng-dirty{
-    border-color:#FA787E;
+  border-color:#FA787E;
 }
+
 .ng-valid.ng-dirty{
-    border-color:#78FA89;
+  border-color:#78FA89;
+}
+
+.undecorated-link:hover {
+	text-decoration: none;
 }
