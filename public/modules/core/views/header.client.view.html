@@ -6,7 +6,8 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		</button>
-		<a href="/#!/" class="navbar-brand navbar-brand-custom"><span class="glyphicon glyphicon-check"></span> kindling</a>
+		<a href="/#!/" class="navbar-brand navbar-brand-custom" data-ng-hide="authentication.user"><span class="glyphicon glyphicon-check"></span> kindling</a>
+		<a href="/#!/campfire" class="navbar-brand navbar-brand-custom" data-ng-show="authentication.user"><span class="glyphicon glyphicon-check"></span> kindling</a>
 	</div>
 	<nav class="collapse navbar-collapse" collapse="!isCollapsed" role="navigation">
 		<ul class="nav navbar-nav" data-ng-if="menu.shouldRender(authentication.user);">
