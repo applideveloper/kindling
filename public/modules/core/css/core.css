@@ -1,21 +1,122 @@
+body {
+	background: transparent;
+	color: #e18d07;
+	font-family: 'Fira Sans', sans-serif;
+}
+
 .content {
 	margin-top: 50px;
 }
 
+.device-container {
+	display: block;
+	overflow: auto;
+}
+
+.imac-div {
+	background-image: url('../img/imac.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.imac-content {
+	bottom: 0;
+	font-size: 175px;
+	height: 70%;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0;
+}
+
 .imac-lg {
+	height: 1000px;
 	width: 1000px;
 }
 
 .imac-md {
+	height: 500px;
 	width: 500px;
 }
 
 .imac-sm {
+	height: 250px;
 	width: 250px;
 }
 
-.navbar-brand-custom {
+.iphone-div {
+	background-image: url('../img/iphone.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	clear: none;
+	float: left;
+	margin-left: 10px;
+	margin-top: 50px;
+
+}
+
+.iphone-content {
+	font-size: 28px;
+	left: 23%;
+	top: 30%;
+}
+
+.iphone-sm {
+	height: 110px;
+	width: 50px;
+}
+
+.link-signin, .link-signin:active, .link-signin:hover, .link-signin:visited {
+	background: black;
+	border: 1px solid black;
+	color: #33862f;
+	font-size: 2em;
+	margin: 5px 10px 5px 10px;
+	padding: 5px 10px 5px 10px;
+	text-align: right;
+	text-decoration: none;
+}
+
+.link-signup, .link-signup:active, .link-signup:hover, .link-signup:visited {
+	background: #33862f;
+	border: 1px solid #33862f;
+	color: #000;
+	font-size: 2em;
+	margin: 5px 10px 5px 10px;
+	padding: 5px 10px 5px 10px;
+	text-align: right;
+	text-decoration: none;
+}
+
+.logo-font {
+	font-family: 'Poiret One', serif;
+}
+
+.macbook-div {
+	background-image: url('../img/macbook.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	clear: none;
+	float: left;
+}
+
+.macbook-content {
+	font-size: 90px;
+	left: 38%;
+	top: 30%;
+}
+
+.macbook-sm {
+	height: 200px;
+	width: 330px;
+}
+
+.navbar-brand-custom, .navbar-brand-custom:hover, .navbar-brand-custom:active, .navbar-brand-custom:visited {
+	color: #33862f;
 	font-size: 3em;
+	text-shadow: none;
 }
 
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
@@ -32,4 +133,10 @@
 
 .undecorated-link:hover {
 	text-decoration: none;
+}
+
+.wallpaper {
+	background: url("../img/wallpaper.jpg") no-repeat bottom left;
+	background-size: 100% 100%;
+	min-height:100%;
 }
