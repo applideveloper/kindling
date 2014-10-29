@@ -14,3 +14,37 @@
 	right: 10px;
 	position: absolute;
 }
+
+.link-signin, .link-signin:active, .link-signin:hover, .link-signin:visited {
+	background: black;
+	border: 1px solid black;
+	color: #33862f;
+	font-size: 2em;
+	margin: 5px 10px 5px 10px;
+	padding: 5px 10px 5px 10px;
+	text-align: right;
+	text-decoration: none;
+}
+
+.link-signup, .link-signup:active, .link-signup:hover, .link-signup:visited {
+	background: #33862f;
+	border: 1px solid #33862f;
+	color: #000;
+	font-size: 2em;
+	margin: 5px 10px 5px 10px;
+	padding: 5px 10px 5px 10px;
+	text-align: right;
+	text-decoration: none;
+}
+
+.link-small, .link-small:active, .link-small:hover, .link-small:visited {
+	font-size: 1em;
+}
+
+.logo-font {
+	font-family: 'Poiret One', serif;
+}
+
+.text-bg-black {
+	background: black;
+}
