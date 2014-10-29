@@ -12,6 +12,9 @@
 	<div class="col-xs-offset-2 col-xs-8 col-md-offset-5 col-md-2">
 		<form name="userForm" data-ng-submit="signup()" class="signin form-horizontal" novalidate autocomplete="off">
 			<fieldset>
+				<div data-ng-show="error" class="text-center text-danger text-bg-black">
+					<strong data-ng-bind="error"></strong>
+				</div>
 				<div class="form-group">
 					<label for="firstName">First Name</label>
 					<input type="text" required id="firstName" name="firstName" class="form-control" data-ng-model="credentials.firstName" placeholder="First Name">
@@ -33,11 +36,10 @@
 					<input type="password" id="password" name="password" class="form-control" data-ng-model="credentials.password" placeholder="Password">
 				</div>
 				<div class="text-center form-group">
-					<button type="submit" class="btn btn-large btn-primary">Sign up</button>&nbsp; or&nbsp;
-					<a href="/#!/signin" class="show-signup">Sign in</a>
+					<button type="submit" class="link-signup">Sign up</button>
 				</div>
-				<div data-ng-show="error" class="text-center text-danger">
-					<strong data-ng-bind="error"></strong>
+				<div class="text-center form-group">
+					<a href="/#!/signin" class="link-signin link-small">Sign in</a>
 				</div>
 			</fieldset>
 		</form>
