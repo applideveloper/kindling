@@ -133,6 +133,11 @@ body {
 	background: #33862f;
 }
 
+.dropdown-toggle {
+	color: black;
+	background: #33862f;
+}
+
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
 	display: none !important;
 }
