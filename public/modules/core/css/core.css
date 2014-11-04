@@ -119,6 +119,25 @@ body {
 	text-shadow: none;
 }
 
+.dropdown-custom, .dropdown-custom:visited {
+	color: #33862f;
+	background: black;
+	font-size: 1em;
+	font-family: 'Poiret One', serif;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+.dropdown-custom:hover > a, .dropdown-custom:active > a {
+	color: black;
+	background: #33862f;
+}
+
+.dropdown-toggle {
+	color: black;
+	background: #33862f;
+}
+
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
 	display: none !important;
 }
