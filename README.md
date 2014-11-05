@@ -5,6 +5,7 @@ kindling is a less sucky version of Tinder. It's not ground-breaking nor innovat
 
 # About
 ###Technical details
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/tylerdmace/kindling?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 I am developing kindling on the MEAN stack. A full list of tools used:
 * MongoDB
 * Angular
