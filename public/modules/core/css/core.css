@@ -113,29 +113,24 @@ body {
 	width: 330px;
 }
 
+.navbar-header {
+	background-color: transparent;
+}
+
 .navbar-brand-custom, .navbar-brand-custom:hover, .navbar-brand-custom:active, .navbar-brand-custom:visited {
 	color: #33862f;
 	font-size: 3em;
 	text-shadow: none;
 }
 
-.dropdown-custom, .dropdown-custom:visited {
+.dropdown-custom > a, .dropdown-custom:visited, .dropdown-custom:hover > a, .dropdown-custom:active {
 	color: #33862f;
-	background: black;
-	font-size: 1em;
+	background: transparent;
+	font-size: 1.5em;
 	font-family: 'Poiret One', serif;
 	font-weight: bold;
-	margin-top: 15px;
-}
-
-.dropdown-custom:hover > a, .dropdown-custom:active > a {
-	color: black;
-	background: #33862f;
-}
-
-.dropdown-toggle {
-	color: black;
-	background: #33862f;
+	margin-top: 10px;
+	text-shadow: none;
 }
 
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
