@@ -1,11 +1,11 @@
 [![Build Status](https://travis-ci.org/tylerdmace/kindling.svg)](https://travis-ci.org/tylerdmace/kindling)
 [![Dependencies Status](https://david-dm.org/tylerdmace/kindling.png)](https://david-dm.org/tylerdmace/kindling)
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/tylerdmace/kindling?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 kindling is a less sucky version of Tinder. It's not ground-breaking nor innovative in any measurable way -- it's simply less sucky.
 
 # About
 ###Technical details
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/tylerdmace/kindling?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 I am developing kindling on the MEAN stack. A full list of tools used:
 * MongoDB
 * Angular
